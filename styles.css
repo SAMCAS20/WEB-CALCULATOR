@@ -1,40 +1,20 @@
-:root {
-    --background: #f6f6f6;
-    --font: #ffffff;
-    --border: #333;
-    --screen: #eee;
-    --calculator: #aaa;
-    --btn: #eee;
-    --btn-hover: #ddd;
-    --btn-active: #ccc;
-    --btn-red: #faa;
-    --btn-red-hover: #e99;
-    --btn-red-active: #d88;
-    --btn-blue: #aaf;
-    --btn-blue-hover: #99e;
-    --btn-blue-active: #88d;
-  }
-  
+
   *,
   *::before,
   *::after {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
   }
   
-  html {
-    /* footer support */
-    position: relative;
-    min-height: 100%;
-  }
+ 
   
   body {
-    background-color: var(--background);
-    color: var(--font);
+    background-color: #f6f6f6;
+    color: #ffffff;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    /* footer support */
     margin-bottom: 100px;
   }
   
@@ -47,7 +27,7 @@
     outline: none;
   }
   
-  /* MAIN */
+  
   
   .main {
     display: flex;
@@ -57,6 +37,7 @@
     min-height: 500px;
     padding: 10px;
     margin-top: 50px;
+    
   }
   
   .calculator {
@@ -91,7 +72,7 @@
   .buttons-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-gap: 25px;
   }
   
   .span-2 {
@@ -100,7 +81,8 @@
   
   .btn {
     padding: 20px;
-    
+    width: 58px;
+    height: 70px;
     border-radius: 13px;
     background-color: #777777;
     font-size: 20px;
@@ -110,22 +92,26 @@
     border-radius: 13px;
     background-color: #FF9500;
     font-size: 20px;
+    width: 58px;
+    height: 70px;
   }
   .btn-gre {
     padding: 20px;
+    width: 58px;
+    height: 70px;
     border-radius: 13px;
     background-color: #28A745;
     font-size: 20px;
   }
   .btn:hover {
-    background-color: var(--btn-hover);
+    background-color: #ddd;;
   }
   #clearBtn{
       margin-bottom: 20px;
-      margin-left: 300px;
+      margin-left: 289px;
       }
   .btn:active {
-    background-color: var(--btn-active);
+    background-color: #ccc;
   }
   
   .btn-red {
@@ -134,19 +120,9 @@
   }
   
   .btn-red:hover {
-    background-color: var(--btn-red-hover);
+    background-color: #e99;
   }
   
   .btn-red:active {
-    background-color: var(--btn-red-active);
+    background-color: #d88;
   }
-  
-  
-  /* Disables input spinners in calc screen */
-  input[type='number']::-webkit-inner-spin-button,
-  input[type='number']::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-  
-  
