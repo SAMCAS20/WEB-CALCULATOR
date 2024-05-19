@@ -19,7 +19,6 @@ Display: The calculator should display the current value or result or expression
 <ol>
   <li>Saron Eshetu       UGR/23712/13 </li>
   <li>Samanta Casale   UGR/23273/13 </li>
-  <li>Gemechis Biru      UGR/22621/13</li>
   <li>Edom Gurmecha  UGR/23444/13 </li>
   <li>Gifti Ashenafi        UGR/22567/13  </li>
 </ol>
